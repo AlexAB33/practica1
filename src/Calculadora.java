@@ -29,12 +29,17 @@ public class Calculadora {
     public void suma(double n1, double n2) {
         System.out.println("La suma (float) de " + n1 + " más " + n2 + " es " + (n1+n2));
     }
-
+    
     public void resta(double n1, double n2) {
         System.out.println("La resta de " + n1 + " menos " + n2 + " es " + (n1-n2));
     }
+    public void multiplica(double n1, double n2) {
+        System.out.println("La multiplicación de " + n1 + " por " + n2 + " es " + (n1*n2));
+    }
+    
     
     // Getters y Setters (Source -> Insert code -> Getter and Setter)
+
     public String getMarca() {
         return marca;
     }
